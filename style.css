@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(159, 199, 199);
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul{
+    display: flex;
+    
+    background-color: #000000;
+    text-align: center;
+    align-items: center;
+    color: white;
+    list-style: none;
+}
+
+nav ul li{
+    margin: 1%;
+
+}
+nav a:hover{
+    background-color: aliceblue;
+    color: black;  
+    cursor:pointer;
+    
+}
+
+
+.social a{
+    color: white;
+    text-decoration: none;
+}
+
+.profile img{
+
+    width: 20%;
+    height: 20%;
+    margin-left: 40%;
+    border-radius: 100%;
+}
+
+#name{
+    margin-left: 46%;
+}
+
+.social{
+    position: absolute;
+    right: 45%;
+    
+}
+
+.social ul{
+    display: flex;
+    text-align: center;
+    padding: 0% 10%;
+    list-style: none;
+
+}
+
+.social ul li{
+    padding: 0% 1%;
+}
+
+.social img{
+    height: 20px;
+    width: 20px;
+}
+
+#icon{
+    border-radius: 50%;;
+}
